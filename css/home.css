@@ -1,21 +1,3 @@
-/* body {
-    margin: 0;
-    background-color: #14213d;
-}
-
-.headerTitle {
-    text-align: center;
-    color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: large;
-    padding-top: 120px;
-}
-
-#typing span {
-    color: orange;
-    font-family: megrim;
-} */
-
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +7,7 @@
 
 @font-face {
     font-family: megrim;
-    src: url('../font/Megrim.ttf');
+    src: url('/font/Megrim.ttf');
 }
 
 body {
