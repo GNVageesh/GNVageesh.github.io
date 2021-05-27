@@ -1,0 +1,14 @@
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/home.css')}}">
+{% endblock %}
+
+{% block body %}
+
+<div class="headerTitle">
+    <!-- <h1 id="typing">I am <span>GN Vageesh</span></h1>
+    <p>A Developer For A Development</p> -->
+    <h2 data-text="GNVageesh">GNVageesh</h2>
+</div>
+
+<script src="{{url_for('static', filename='js/textAnim.js')}}"></script>
+{% endblock %}
